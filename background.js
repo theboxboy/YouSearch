@@ -32,7 +32,7 @@ chrome.omnibox.onInputEntered.addListener(function (text) {
 });
 chrome.omnibox.onInputStarted.addListener(function () {
     var suggestion = {
-        description : "Open in YouSearch: %s "
+        description : "Open in YouSearch: %s"
     }
     chrome.omnibox.setDefaultSuggestion(suggestion);
 });
